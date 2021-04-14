@@ -1,0 +1,95 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    color: var(--transparent-white);
+    line-height: 20px;
+}
+
+.button {
+    background-color: var(--very-light-gray);
+    height: 40px;
+    width: 120px;
+    border-radius: 4rem;
+    border-style: none;
+    margin-top: 58px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: transparent;
+    color: var(--very-light-gray);
+    transition: .2s;
+    border:2px solid var(--very-light-gray);
+}
+
+#container {
+    height: 450px;
+    width: 720px;
+    align-items: left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--very-light-gray);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.primeiro {
+    background-color: var(--bright-orange);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.primeiro .button {
+    color: var(--bright-orange);
+}
+
+.segundo {
+    background:var(--dark-cyan);
+}
+
+.segundo .button {
+    color: var(--dark-cyan);
+}
+
+.terceiro {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.terceiro .button {
+    color: var(--very-dark-cyan);
+}
+
+.caixa {
+    width: 240px;
+    height: 450px;
+    padding: 30px;
+}
+
+.caixa img {
+    margin-bottom: 20px;
+}
