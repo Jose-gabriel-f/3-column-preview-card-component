@@ -43,11 +43,20 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 Section to recap over some major learnings while working through this project.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="caixa primeiro">
+  <img src="/images/icon-sedans.svg" alt="Sedans">
+  <h1 class="title">Sedans</h1>
+  <p>a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p> 
+  <button class="button">Learn More</button>
+</div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
 }
 ```
 ## Author
