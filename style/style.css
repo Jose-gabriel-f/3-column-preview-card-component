@@ -25,18 +25,13 @@ p {
 
 .button {
     background-color: var(--very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
     height: 40px;
     width: 120px;
     border-radius: 4rem;
     border-style: none;
     margin-top: 58px;
     cursor: pointer;
-}
-
-.button:hover {
-    background: transparent;
-    color: var(--very-light-gray);
-    transition: .2s;
     border:2px solid var(--very-light-gray);
 }
 
@@ -84,6 +79,12 @@ p {
     color: var(--very-dark-cyan);
 }
 
+.button:hover {
+    background: transparent;
+    color: var(--very-light-gray);
+    transition: .2s;
+}
+
 .caixa {
     width: 240px;
     height: 450px;
@@ -92,4 +93,8 @@ p {
 
 .caixa img {
     margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+
 }
